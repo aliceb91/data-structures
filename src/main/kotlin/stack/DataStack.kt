@@ -8,11 +8,11 @@ class DataStack {
         stack.add(item)
     }
 
-    fun pop():Any? {
+    fun pop(): Any? {
         return stack.removeLastOrNull()
     }
 
-    fun peek():Any? {
+    fun peek(): Any? {
         return stack.lastOrNull()
     }
 }
