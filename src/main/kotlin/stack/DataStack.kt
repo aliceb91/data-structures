@@ -2,7 +2,7 @@ package stack
 
 class DataStack {
 
-    var stack = mutableListOf<Any>()
+    val stack = mutableListOf<Any>()
 
     fun push(item: String) {
         stack.add(item)
